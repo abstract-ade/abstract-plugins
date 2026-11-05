@@ -1,0 +1,148 @@
+{
+  "format": 1,
+  "plugins": [
+    {
+      "owner": "abstract-ade",
+      "slug": "approvals",
+      "name": "Approvals",
+      "description": "Every permission request and question waiting across your chats, in one list, oldest first. Allow, deny or answer each without opening its chat.",
+      "pluginId": "sh.abstract.approvals",
+      "repository": "abstract-ade/abstract-plugin-approvals",
+      "commit": "e57b51a904f9e0af0208a470c3bf32b41fd5d48c",
+      "screenshots": [],
+      "reviewedAt": "2026-11-05T00:00:00Z"
+    },
+    {
+      "owner": "abstract-ade",
+      "slug": "bitbucket",
+      "name": "Bitbucket",
+      "description": "Pull requests, approvals, builds and merging for Bitbucket Cloud and Data Center. Uses your bkt sign-in and keeps no token of its own.",
+      "pluginId": "sh.abstract.bitbucket",
+      "repository": "abstract-ade/abstract-plugin-bitbucket",
+      "commit": "b263c3d524b1db74ba2e8f640d5d790fcd375f95",
+      "screenshots": [],
+      "reviewedAt": "2026-11-05T00:00:00Z"
+    },
+    {
+      "owner": "abstract-ade",
+      "slug": "chat-count",
+      "name": "Chat count",
+      "description": "Shows how many chats need you, are working, are ready to review, or are done.",
+      "pluginId": "sh.abstract.chat-count",
+      "repository": "abstract-ade/abstract-plugin-chat-count",
+      "commit": "bbb17ab098f8c9a331816b6275619686d5c41abc",
+      "screenshots": [],
+      "reviewedAt": "2026-11-05T00:00:00Z"
+    },
+    {
+      "owner": "abstract-ade",
+      "slug": "chat-panel",
+      "name": "Chat panel",
+      "description": "A sample that sits beside a chat: a side-panel tab naming the chat, a chat menu item, a ⌘K command, a Settings page and a Home card.",
+      "pluginId": "sh.abstract.chat-panel",
+      "repository": "abstract-ade/abstract-plugin-chat-panel",
+      "commit": "531d9e28bf13baf155e1dcf4e3cdcb10f875d170",
+      "screenshots": [],
+      "reviewedAt": "2026-11-05T00:00:00Z"
+    },
+    {
+      "owner": "abstract-ade",
+      "slug": "dashboard",
+      "name": "Dashboard",
+      "description": "Shows what your chats need, what your agents used this month, and how recent turns ended.",
+      "pluginId": "sh.abstract.dashboard",
+      "repository": "abstract-ade/abstract-plugin-dashboard",
+      "commit": "773278075be2c7d615373d23e746dd47851ae5ce",
+      "screenshots": [],
+      "reviewedAt": "2026-11-05T00:00:00Z"
+    },
+    {
+      "owner": "abstract-ade",
+      "slug": "delegation",
+      "name": "Delegation",
+      "description": "A chat can ask another agent to work in its own chat and branch, then receive a short report when the sub-tasks finish.",
+      "pluginId": "sh.abstract.delegation",
+      "repository": "abstract-ade/abstract-plugin-delegation",
+      "commit": "e9deb5744b9a4cf3d31eca74711225a959d34170",
+      "screenshots": [],
+      "reviewedAt": "2026-11-05T00:00:00Z"
+    },
+    {
+      "owner": "abstract-ade",
+      "slug": "follow-pr",
+      "name": "Follow pull request",
+      "description": "Turn on Follow in a chat's Pull Request tab, and new review comments, requested changes and failed checks go to the chat's agent as one message, a couple of minutes after they arrive. It stops when the pull request is merged or closed.",
+      "pluginId": "sh.abstract.follow-pr",
+      "repository": "abstract-ade/abstract-plugin-follow-pr",
+      "commit": "bc551fe8d9d526ee160c791eae70ae67bd830694",
+      "screenshots": [],
+      "reviewedAt": "2026-11-05T00:00:00Z"
+    },
+    {
+      "owner": "abstract-ade",
+      "slug": "jira",
+      "name": "Jira",
+      "description": "Find Jira Cloud issues by key, link or words and attach them to chats. Uses Atlassian's acli sign-in on this Mac.",
+      "pluginId": "sh.abstract.jira",
+      "repository": "abstract-ade/abstract-plugin-jira",
+      "commit": "f78ec32249008239dd21e15d9893d35fba16d229",
+      "screenshots": [],
+      "reviewedAt": "2026-11-05T00:00:00Z"
+    },
+    {
+      "owner": "abstract-ade",
+      "slug": "kanban",
+      "name": "Kanban",
+      "description": "Shows your chats as a board, by what they need from you.",
+      "pluginId": "sh.abstract.kanban",
+      "repository": "abstract-ade/abstract-plugin-kanban",
+      "commit": "c8448fe0509e2e41e3b7e4e0f756f1be4aaa608c",
+      "screenshots": [],
+      "reviewedAt": "2026-11-05T00:00:00Z"
+    },
+    {
+      "owner": "abstract-ade",
+      "slug": "lessons",
+      "name": "Lessons",
+      "description": "Save what a chat learned. Its own agent writes the lessons into the project's instructions or a skill, and the edit waits in Review for you to keep or discard.",
+      "pluginId": "sh.abstract.lessons",
+      "repository": "abstract-ade/abstract-plugin-lessons",
+      "commit": "eaeb6056a2848db58b800e500a3df7378976daeb",
+      "screenshots": [],
+      "reviewedAt": "2026-11-05T00:00:00Z"
+    },
+    {
+      "owner": "abstract-ade",
+      "slug": "linear",
+      "name": "Linear",
+      "description": "Find Linear issues in the composer's issue search, by words, a key like ENG-123 or a link, and attach them to your messages. It uses the Linear CLI signed in on this Mac, or an optional personal API key kept in your keychain.",
+      "pluginId": "sh.abstract.linear",
+      "repository": "abstract-ade/abstract-plugin-linear",
+      "commit": "e00753bf07439afd8b1f69aba8b5bf0673471e7e",
+      "screenshots": [],
+      "reviewedAt": "2026-11-05T00:00:00Z"
+    },
+    {
+      "owner": "abstract-ade",
+      "slug": "link-status",
+      "name": "Link status",
+      "description": "GitHub pull requests and issues and Linear issues linked in a chat show how they stand after the link: open, draft, merged or closed, with checks, and a Linear issue's state and assignee. They refresh every five minutes while you can see them. Private repositories need a GitHub token, and Linear needs your Linear API key, both entered here in Settings.",
+      "pluginId": "sh.abstract.link-status",
+      "repository": "abstract-ade/abstract-plugin-link-status",
+      "commit": "dca3a9b05868139ba06a59581b83318ebebb8aa3",
+      "screenshots": [],
+      "reviewedAt": "2026-11-05T00:00:00Z"
+    },
+    {
+      "owner": "abstract-ade",
+      "slug": "second-opinion",
+      "name": "Second opinion",
+      "description": "Ask another agent to review a chat's changes. It reads them without changing anything, and its findings arrive as comments in Review for you to send or delete.",
+      "pluginId": "sh.abstract.second-opinion",
+      "repository": "abstract-ade/abstract-plugin-second-opinion",
+      "commit": "5accd260e3f2e9b1a76ecacdc791d38ccb845859",
+      "screenshots": [],
+      "reviewedAt": "2026-11-05T00:00:00Z"
+    }
+  ]
+}
