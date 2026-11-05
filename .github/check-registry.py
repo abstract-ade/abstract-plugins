@@ -49,6 +49,14 @@ def package_problems(entry: dict) -> list[str]:
         git("init", "--quiet", "--bare")
         if git("fetch", "--quiet", "--depth", "1", "--no-tags", "--", url, entry["commit"]).returncode:
             return [f"commit {entry['commit']} can't be fetched from {url}"]
+        # GitHub serves any commit in a fork network through every repository
+        # in it, so the commit must be on a branch or tag of this one.
+        if git("fetch", "--quiet", "--filter=blob:none", "--unshallow", "--", url,
+               "+refs/heads/*:refs/remotes/origin/*", "+refs/tags/*:refs/tags/*").returncode:
+            return [f"{url}'s branches and tags can't be fetched"]
+        holders = git("for-each-ref", "--contains", entry["commit"], "--format=%(refname)")
+        if holders.returncode or not holders.stdout.strip():
+            return [f"commit {entry['commit']} isn't on any branch or tag of {entry['repository']}"]
         tree = f"{entry['commit']}:{entry['path']}" if entry.get("path") else f"{entry['commit']}^{{tree}}"
         archived = git("archive", "--format=tar", tree)
         if archived.returncode:
