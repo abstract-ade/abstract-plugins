@@ -143,6 +143,19 @@
       "commit": "5accd260e3f2e9b1a76ecacdc791d38ccb845859",
       "screenshots": [],
       "reviewedAt": "2026-11-05T00:00:00Z"
+    },
+    {
+      "owner": "abstract-ade",
+      "slug": "theme-clay",
+      "name": "Clay",
+      "description": "A warm theme in light and dark, inspired by Claude's colours, with clay orange as its accent.",
+      "pluginId": "sh.abstract.theme.clay",
+      "repository": "abstract-ade/abstract-plugin-theme-clay",
+      "commit": "d4c0acebe53f37a4c4a40be9c5fbd0c989126ee0",
+      "screenshots": [
+        "https://raw.githubusercontent.com/abstract-ade/abstract-plugin-theme-clay/d4c0acebe53f37a4c4a40be9c5fbd0c989126ee0/images/clay-dark.png",
+        "https://raw.githubusercontent.com/abstract-ade/abstract-plugin-theme-clay/d4c0acebe53f37a4c4a40be9c5fbd0c989126ee0/images/clay-light.png"
+      ]
     }
   ]
 }
