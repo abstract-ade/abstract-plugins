@@ -63,7 +63,7 @@
       "description": "A chat can ask another agent to work in its own chat and branch, then receive a short report when the sub-tasks finish.",
       "pluginId": "sh.abstract.delegation",
       "repository": "abstract-ade/abstract-plugin-delegation",
-      "commit": "e9deb5744b9a4cf3d31eca74711225a959d34170",
+      "commit": "d44222564ffe8f518922fa9fde3ef881ec3fe44f",
       "screenshots": [],
       "reviewedAt": "2026-11-05T00:00:00Z"
     },
